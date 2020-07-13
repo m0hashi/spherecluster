@@ -8,7 +8,7 @@ from sklearn.cluster import KMeans
 
 # from sklearn.cluster import _k_means
 from sklearn.cluster import _k_means_fast as _k_means
-from sklearn.cluster.k_means_ import (
+from sklearn.cluster._kmeans import (
     _check_sample_weight,
     _init_centroids,
     _labels_inertia,
